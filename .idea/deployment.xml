@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="imt3090@59.77.16.107:1213 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="1080">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mydata/AST/readme" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hya4000@59.77.16.107:2327 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/data/agqing/readme" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="imt3090@59.77.16.107:1213 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/ssd/agqing/readme" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
