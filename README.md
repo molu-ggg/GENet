@@ -1,6 +1,6 @@
 
 
-# [ACMMM24-A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3680592)
+# \[ACMMM24\] A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection
 
 paper link :https://dl.acm.org/doi/abs/10.1145/3664647.3680592
 
@@ -64,11 +64,16 @@ python train.py --stage 2 --epochs 15 --checkpoint checkpoints/... --dataset UBn
 If you find this paper useful, please cite this work as follows:
 
 ```
-@article{yang2023multilevel,
-  title = {A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection},
-  author = {Guoqing Yang et al.},
-  journal={arXiv preprint arXiv:2312.04119},
-  year = {2023},
+@inproceedings{10.1145/3664647.3680592,
+author = {Yang, Guoqing and Luo, Zhiming and Gao, Jianzhe and Lai, Yingxin and Yang, Kun and He, Yifan and Li, Shaozi},
+title = {A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection},
+year = {2024},
+isbn = {9798400706868},
+url = {https://doi.org/10.1145/3664647.3680592},
+doi = {10.1145/3664647.3680592},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {5865–5873},
+numpages = {9},
 }
 ```
 
