@@ -1,18 +1,20 @@
 
 
-# [A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection](https://arxiv.org/abs/2312.04119)
+# [ACMMM24-A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3680592)
 
-paper link :https://arxiv.org/abs/2312.04119
+paper link :https://dl.acm.org/doi/abs/10.1145/3664647.3680592
 
 The essence of this algorithm is to explore a novel guidance-exploration network architecture, which resembles the teacher-student architecture pattern. However, what sets it apart is that the teacher network is no longer a network with a massive number of parameters. Instead, it can be quite small. Additionally, the input modalities are diverse, and the encoder architectures vary accordingly. Detect anomalies based on the differences in modality outputs.
 
-![image-20231212115445824](https://raw.githubusercontent.com/molu-ggg/image230306/master/image/imgimage-20231212115445824.png)
+
 
 The implementation code for the paper.
 
-Note: This repository corresponds to the previous version of the algorithm, similar to multilevel-1. The key difference is that RGBENc employs a traditional convolutional neural network. The achieved AUC values on the ShanghaiTech and UBnormal datasets are 86.7% and 73.2%, respectively.
+- 2023-12: the code of our paper "A Multilevel Guidance-Exploration Network and Behavior-Scene Matching Method for Human Behavior Anomaly Detection" reached its upper limit. The performance on the SHT dataset can reach 86.9%, and on the UBnormal dataset it can reach 73.5%.
 
-Certainly, please provide the specific steps of the algorithm, and I'll do my best to assist or provide information based on the details you provide.
+- 2024-03: relevant explanations were supplemented.
+
+- 2024-08: with the model iteration of Simple-GENet, considering that the inference speed of the algorithm was too slow, we further optimized the version of the algorithm. We removed the two-stage mask method and only retained and optimized the model in the first stage. The training and inference speeds have been improved.
 
 # Install
 
